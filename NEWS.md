@@ -1,3 +1,7 @@
+# stevetemplates 1.4.0
+
+- `article2` and `article3` have fixes for use of `endfloat` package in LaTeX. Additionally, `endfloat` must be declared as argument in YAML and is honored only when `anonymous: TRUE`.
+- Assorted documentation changes for clarity.
 
 # stevetemplates 1.3.0
 

@@ -571,11 +571,12 @@ $endif$
 % trick for moving figures to back of document
 % really wish we'd knock this shit off with moving tables/figures to back of document
 % but, alas...
-
-$if(anonymous)$
+$if(anonymous)$ % begin anonymous-if
+$if(endfloat)$ % begin endfloat-if...
 \usepackage[notablist,nofiglist]{endfloat}
-\DeclareDelayedFloatFlavor{longtable}{table}
-$if(appendixletter)$
+%\DeclareDelayedFloatFlavor{longtable}{table}
+
+$if(appendixletter)$ % begin appendixletter-if
 \renewcommand\floatplace[1]{%
   \begin{center}
 ***\emph{\csname #1name\endcsname~$appendixletter$.\csname thepost#1\endcsname\ about here}***
@@ -585,32 +586,12 @@ $else$
   \begin{center}
 ***\emph{\csname #1name\endcsname~\csname thepost#1\endcsname\ about here}***
   \end{center}}
-$endif$
 
+$endif$ % end appendixletter-if
+$endif$ % end endfloat-if
+$endif$ % end anonymous-if
 
-% \renewcommand\floatplace[1]{%
-%   \begin{center}
-% ***\emph{\csname #1name\endcsname~\csname thepost#1\endcsname\ about here}***
-%   \end{center}}
-% $else$
-% $endif$
-
-% Optional code chunks ------
-% SOURCE: https://stackoverflow.com/questions/50702942/does-rmarkdown-allow-captions-and-references-for-code-chunks
-$if(chunkcaption)$
-\usepackage{caption}
-\usepackage{floatrow}
-
-\DeclareNewFloatType{chunk}{placement=H, fileext=chk, name=}
-\captionsetup{options=chunk}
-\renewcommand{\thechunk}{Chunk~$if(appendix)$$appendixletter$.$else$$endif$\arabic{chunk}}
-\makeatletter
-\@addtoreset{chunk}{section}
-\makeatother
-$else$
-$endif$
-
-
+% DOCUMENT BEGINS NOW...
 
 \begin{document}
 

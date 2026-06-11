@@ -40,11 +40,12 @@
 #' | `pandocparas` | logical, defaults to `FALSE`. If `TRUE`, keeps Pandoc's default paragraph format |
 #' | `sansitup` | logical, defaults to `FALSE`. If `TRUE`, better mimics ACM's use of sans fonts for section headers |
 #' | `mainfont` | optional (I think?), but it's the main font to use with `xelatex`. I use `cochineal` here. |
-#' | `sansfont` | optional, only necessary if `sansitup: TRUE`. Specifies sans font. I recommend Linux Biolinum |
+#' | `sansfont` | optional, only necessary if `sansitup: TRUE`. Specifies sans font. I recommend Linux Biolinum or Libertinus Sans. |
 #' | `doublespacing` | optional, if anything is here to process, this will double-space the document. |
 #' | `remove-emails` | optional, defaults to FALSE. If TRUE, removes author email information from document preamble. |
 #' | `remove-paper-info` | optional, defaults to FALSE. If TRUE, removes optional paper information you may want to include. |
 #' | `paper-info` | Additional information you may want to include about the paper. |
+#' | `endfloat` | logical, defaults to `FALSE`. If `TRUE`, figures/tables moved to back of document with "Figure/Table about here" placeholder text. Observed only when `anonymous: TRUE` and depends on figure/table captions. |
 #' | `solo-author` | Is there only one author on this project? Then set as `TRUE`. Has implications for formatting. |
 #' | `two-author` | Are there *only two* authors on this project? Then set as `TRUE`. Has implications for formatting. |
 #' | `n-author` | Are there *more than two* authors on this project? Then set as `TRUE`. Has implications for formatting. |

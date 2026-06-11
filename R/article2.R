@@ -34,6 +34,8 @@
 #' | `mainfont` | optional (I think?), but it's the main font to use with `xelatex`. I use `cochineal` here. |
 #' | `sansfont` | optional, only necessary if `sansitup: TRUE`. Specifies sans font. I recommend Linux Biolinum |
 #' | `doublespacing` | optional, if anything is here to process, this will double-space the document. |
+#' | `endfloat` | logical, defaults to `FALSE`. If `TRUE`, figures/tables moved to back of document with "Figure/Table about here" placeholder text. Observed only when `anonymous: TRUE` and depends on figure/table captions. |
+
 #'
 #' @inheritParams rmarkdown::pdf_document
 #' @param ... Arguments to [`rmarkdown::pdf_document`].
