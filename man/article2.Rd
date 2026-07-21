@@ -40,9 +40,9 @@ on the Github repo if I didn't.\tabular{ll}{
    \code{appendix} \tab optional, but specifies appendix figure/table prefices \cr
    \code{endnotes} \tab logical, defaults to \code{FALSE}. If \code{TRUE}, makes R Markdown footnotes as endnotes \cr
    \code{pandocparas} \tab logical, defaults to \code{FALSE}. If \code{TRUE}, keeps Pandoc's default paragraph format \cr
-   \code{sansitup} \tab logical, defaults to \code{FALSE}. If \code{TRUE}, better mimics ACM's use of sans fonts for section headers \cr
+   \code{acmsans} \tab logical, defaults to \code{FALSE}. If \code{TRUE}, better mimics ACM's use of sans fonts for section headers \cr
    \code{mainfont} \tab optional (I think?), but it's the main font to use with \code{xelatex}. I use \code{cochineal} here. \cr
-   \code{sansfont} \tab optional, only necessary if \code{sansitup: TRUE}. Specifies sans font. I recommend Linux Biolinum \cr
+   \code{sansfont} \tab optional, only necessary if \code{sansitup: TRUE}. Specifies sans font. I recommend Linux Biolinum or Libertinus Sans \cr
    \code{doublespacing} \tab optional, if anything is here to process, this will double-space the document. \cr
    \code{endfloat} \tab logical, defaults to \code{FALSE}. If \code{TRUE}, figures/tables moved to back of document with "Figure/Table about here" placeholder text. Observed only when \code{anonymous: TRUE} and depends on figure/table captions. \cr
 }

@@ -30,9 +30,9 @@
 #' | `appendix` | optional, but specifies appendix figure/table prefices |
 #' | `endnotes` | logical, defaults to `FALSE`. If `TRUE`, makes R Markdown footnotes as endnotes |
 #' | `pandocparas` | logical, defaults to `FALSE`. If `TRUE`, keeps Pandoc's default paragraph format |
-#' | `sansitup` | logical, defaults to `FALSE`. If `TRUE`, better mimics ACM's use of sans fonts for section headers |
+#' | `acmsans` | logical, defaults to `FALSE`. If `TRUE`, better mimics ACM's use of sans fonts for section headers |
 #' | `mainfont` | optional (I think?), but it's the main font to use with `xelatex`. I use `cochineal` here. |
-#' | `sansfont` | optional, only necessary if `sansitup: TRUE`. Specifies sans font. I recommend Linux Biolinum |
+#' | `sansfont` | optional, only necessary if `sansitup: TRUE`. Specifies sans font. I recommend Linux Biolinum or Libertinus Sans |
 #' | `doublespacing` | optional, if anything is here to process, this will double-space the document. |
 #' | `endfloat` | logical, defaults to `FALSE`. If `TRUE`, figures/tables moved to back of document with "Figure/Table about here" placeholder text. Observed only when `anonymous: TRUE` and depends on figure/table captions. |
 

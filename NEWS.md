@@ -1,5 +1,9 @@
 # stevetemplates 1.4.0
 
+- `article2` and `article3` will likely be superseded going forward in favor of their Quarto equivalents.
+- `article2` renames `sansitup` to be `acmsans`. 
+- `article2` functionality copied from Quarto template, except for how authors and affiliations are handled. That's one limitation in R Markdown.
+- Skeleton example of `article2` changed.
 - `article2` and `article3` have fixes for use of `endfloat` package in LaTeX. Additionally, `endfloat` must be declared as argument in YAML and is honored only when `anonymous: TRUE`.
 - Assorted documentation changes for clarity.
 
