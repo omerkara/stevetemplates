@@ -13,7 +13,7 @@
 #' Going forward, I recommend the Quarto version of this template for your projects.
 #' You can find that template here, named `qarticle2`:
 #'
-#' <https://github.com/svmiller/quarto-template>
+#' <https://github.com/svmiller/quarto-templates/>
 #'
 #' # About YAML header fields
 #'

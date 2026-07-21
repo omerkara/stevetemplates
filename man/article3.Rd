@@ -28,7 +28,7 @@ and pointing to this solution.
 Going forward, I recommend the Quarto version of this template for your projects.
 You can find that template here, named \code{qarticle3}:
 
-\url{https://github.com/svmiller/quarto-template}
+\url{https://github.com/svmiller/quarto-templates/}
 
 This template already has a \emph{lot} of moving pieces, and I think those are
 easier corraled in Quarto.

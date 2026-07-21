@@ -27,7 +27,7 @@ solution.
 Going forward, I recommend the Quarto version of this template for your projects.
 You can find that template here, named \code{qarticle2}:
 
-\url{https://github.com/svmiller/quarto-template}
+\url{https://github.com/svmiller/quarto-templates/}
 }
 \section{About YAML header fields}{
 This section documents some of the YAML fields to know

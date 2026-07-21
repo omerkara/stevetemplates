@@ -14,7 +14,7 @@
 #' Going forward, I recommend the Quarto version of this template for your projects.
 #' You can find that template here, named `qarticle3`:
 #'
-#' <https://github.com/svmiller/quarto-template>
+#' <https://github.com/svmiller/quarto-templates/>
 #'
 #' This template already has a *lot* of moving pieces, and I think those are
 #' easier corraled in Quarto.
