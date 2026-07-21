@@ -10,6 +10,11 @@
 #' thank Ian Adams and Cornelius Hennch for finding this issue and pointing to this
 #' solution.
 #'
+#' Going forward, I recommend the Quarto version of this template for your projects.
+#' You can find that template here, named `qarticle2`:
+#'
+#' <https://github.com/svmiller/quarto-template>
+#'
 #' # About YAML header fields
 #'
 #' This section documents some of the YAML fields to know

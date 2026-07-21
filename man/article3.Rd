@@ -24,6 +24,14 @@ to additionally install the "xurl" library. Otherwise, you'll get a vague
 error about a missing LaTeX dependency. \code{tinytex::tlmgr_install("xurl")}
 should suffice. I thank Ian Adams and Cornelius Hennch for finding this issue
 and pointing to this solution.
+
+Going forward, I recommend the Quarto version of this template for your projects.
+You can find that template here, named \code{qarticle3}:
+
+\url{https://github.com/svmiller/quarto-template}
+
+This template already has a \emph{lot} of moving pieces, and I think those are
+easier corraled in Quarto.
 }
 \section{About YAML header fields}{
 This section documents some of the YAML fields to know

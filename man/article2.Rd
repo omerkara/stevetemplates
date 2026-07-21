@@ -23,6 +23,11 @@ additionally install the "xurl" library. Otherwise, you'll get a vague error abo
 missing LaTeX dependency. \code{tinytex::tlmgr_install("xurl")} should suffice. I
 thank Ian Adams and Cornelius Hennch for finding this issue and pointing to this
 solution.
+
+Going forward, I recommend the Quarto version of this template for your projects.
+You can find that template here, named \code{qarticle2}:
+
+\url{https://github.com/svmiller/quarto-template}
 }
 \section{About YAML header fields}{
 This section documents some of the YAML fields to know
