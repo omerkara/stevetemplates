@@ -28,6 +28,14 @@ vague error about a missing LaTeX dependency.
 `tinytex::tlmgr_install("xurl")` should suffice. I thank Ian Adams and
 Cornelius Hennch for finding this issue and pointing to this solution.
 
+Going forward, I recommend the Quarto version of this template for your
+projects. You can find that template here, named `qarticle3`:
+
+<https://github.com/svmiller/quarto-template>
+
+This template already has a *lot* of moving pieces, and I think those
+are easier corraled in Quarto.
+
 ## About YAML header fields
 
 This section documents some of the YAML fields to know for this
